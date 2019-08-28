@@ -1,0 +1,127 @@
+body{
+    background: #E2E2E2;
+}
+.calculator {
+    width: 15%;
+    min-width: 190px;;
+    margin: auto;
+    margin-top: 10%;
+    height: 300px;
+    
+}
+#display1 {
+    background-color: gray;
+    text-align: right;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: 5px solid #080808;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 25px;
+}
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    height: 230px;
+    border: 2px solid #080808;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    gap: 2px;
+}
+
+.calc_button {
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.calc_button:hover {
+    background: #FFE359;
+    opacity: 1;
+    transition: 0.5s;
+}
+#button7 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+#button8 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+#button9 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+#button4 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+#button5 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+#button6 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+#button1 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+#button2 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+#button3 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+#button0 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#buttondecimal {
+    grid-row-start: 4;
+    grid-column-start: 3;
+    font-weight: bold;
+}
+#addition {
+    grid-row-start: 1;
+    grid-column-start: 4;
+}
+#subtraction {
+    grid-row-start: 1;
+    grid-column-start: 5;
+}
+#multiply {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+#divide {
+    grid-row-start: 2;
+    grid-column-start: 5;
+}
+#percent {
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+#allclear {
+    grid-row-start: 3;
+    grid-column-start: 5;
+}
+#equal {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+#cancel {
+    grid-row-start: 4;
+    grid-column-start: 5;
+}
