@@ -4,8 +4,6 @@ This project is a basic calculator created using jQuery for its functions.
 
 To view a demo: [Link](https://wman27.github.io/Calculator-demo/)  
 
-To view the source: [Link](https://github.com/wman27/Calculator-demo)
-
 ### Briefing
 
 The requirements this project must satisfy are:
